@@ -10,7 +10,7 @@ body{
 .card{
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(190deg, #1e1e1e, #7a7a7a);
+    background: linear-gradient(190deg, #4bc6bf, #6760fc);
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
@@ -83,4 +83,14 @@ body{
     font-size: 18px;
     margin-top: -6px;
     margin-right: 40px;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
 }
